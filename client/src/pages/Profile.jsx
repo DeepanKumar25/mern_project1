@@ -282,12 +282,14 @@ uppercase"
                 >
                   Delete
                 </button>
-                <button
-                  className="text-green-700
+                <Link to={`/update-listing/${listing._id}`}>
+                  <button
+                    className="text-green-700
 uppercase"
-                >
-                  Edit
-                </button>
+                  >
+                    Edit
+                  </button>
+                </Link>
               </div>
             </div>
           ))}
