@@ -7,7 +7,7 @@ import SignUp from "./pages/SignUp.jsx";
 import Header from "./components/Header.jsx";
 import PrivateRoute from "./components/PrivateRoute.jsx";
 import CreateListing from "./pages/CreateListing.jsx";
-import UpdateListing from "./pages/updateListing.jsx";
+import UpdateListing from "./pages/UpdateListing.jsx";
 import Listing from "./pages/Listing.jsx";
 import Search from "./pages/Search.jsx";
 export default function App() {
